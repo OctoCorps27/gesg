@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Executive Solutions Group (GESG) – Executive & Managerial Search</title>
+    
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com">
-    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -30,7 +30,7 @@
                     },
                     fontFamily: {
                         sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
-                        serif: ['Cinzel', 'Playfair Display', 'serif']
+                        heading: ['Playfair Display', 'serif']
                     }
                 }
             }
@@ -38,7 +38,7 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -47,8 +47,10 @@
             background-color: #ffffff;
             color: #2b2b2b;
         }
-        .font-cinzel {
-            font-family: 'Cinzel', serif;
+        /* Unified font family for all headers */
+        h1, h2, h3, h4, h5, h6, .font-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            letter-spacing: -0.015em;
         }
         .hero-pattern {
             background-color: #ffffff;
@@ -65,7 +67,7 @@
             background: #ea3d32;
             border-radius: 4px;
         }
-        /* make client logos bigger */
+        /* Client Logo Cards */
         .client-logo-wrapper {
             height: 120px;
             padding: 1rem;
@@ -79,6 +81,7 @@
         }
         .client-logo-wrapper:hover {
             border-color: #ea3d32;
+            box-shadow: 0 10px 25px -5px rgba(234, 61, 50, 0.1);
         }
         .client-logo-wrapper img {
             max-height: 80px;
@@ -179,8 +182,8 @@
                         Executive & Managerial Headhunting Agency
                     </div>
 
-                    <h1 class="font-cinzel text-4xl sm:text-5xl lg:text-6xl font-bold text-charcoal-900 leading-tight">
-                        Bringing the right talent to the <span class="text-gesgRed-500">right place.</span>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-charcoal-900 leading-[1.15]">
+                        Bringing the right talent to the <span class="text-gesgRed-500 italic">right place.</span>
                     </h1>
 
                     <p class="text-lg text-slate-600 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -201,15 +204,15 @@
 
                     <div class="pt-8 border-t border-slate-200 grid grid-cols-3 gap-4 text-center lg:text-left">
                         <div>
-                            <div class="font-cinzel text-2xl sm:text-3xl font-bold text-gesgRed-500">1995</div>
+                            <div class="text-2xl sm:text-3xl font-bold text-gesgRed-500">1995</div>
                             <div class="text-xs font-semibold text-slate-500 mt-1 uppercase tracking-wider">Established</div>
                         </div>
                         <div>
-                            <div class="font-cinzel text-2xl sm:text-3xl font-bold text-gesgRed-500">20+ Yrs</div>
+                            <div class="text-2xl sm:text-3xl font-bold text-gesgRed-500">20+ Yrs</div>
                             <div class="text-xs font-semibold text-slate-500 mt-1 uppercase tracking-wider">Proven Track Record</div>
                         </div>
                         <div>
-                            <div class="font-cinzel text-2xl sm:text-3xl font-bold text-gesgRed-500">DDI</div>
+                            <div class="text-2xl sm:text-3xl font-bold text-gesgRed-500">DDI</div>
                             <div class="text-xs font-semibold text-slate-500 mt-1 uppercase tracking-wider">Targeted Selection</div>
                         </div>
                     </div>
@@ -220,7 +223,7 @@
                         <div class="relative rounded-2xl bg-white border-2 border-gesgRed-500 p-8 shadow-2xl space-y-6">
                             <div class="flex items-center justify-between border-b border-slate-100 pb-4">
                                 <div>
-                                    <h3 class="font-cinzel text-xl font-bold text-charcoal-900">Executive Selection</h3>
+                                    <h3 class="text-xl font-bold text-charcoal-900">Executive Selection</h3>
                                     <p class="text-xs text-gesgRed-500 font-bold uppercase tracking-wider">Precision Headhunting</p>
                                 </div>
                                 <div class="w-10 h-10 rounded-full bg-gesgRed-50 flex items-center justify-center text-gesgRed-500 font-bold">
@@ -274,7 +277,7 @@
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white text-xs font-bold uppercase tracking-widest border border-white/20">
                         <i class="fa-solid fa-star"></i> Anniversary Milestone
                     </div>
-                    <h2 class="font-cinzel text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
                         Celebrating 20 Years of Trust
                     </h2>
                     <p class="text-white/90 text-base sm:text-lg leading-relaxed max-w-2xl">
@@ -292,7 +295,7 @@
     <section class="py-20 bg-slate-50 border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
             <div class="text-center max-w-3xl mx-auto space-y-3">
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-charcoal-900">
+                <h2 class="text-3xl sm:text-4xl font-bold text-charcoal-900">
                     Your Talent Acquisition Needs, <span class="text-gesgRed-500">One Click Away.</span>
                 </h2>
                 <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -323,7 +326,7 @@
                         <img src="https://gesg.ph/wp-content/uploads/2023/06/Team-1.png" alt="GESG Executive Search Team" class="w-full h-auto object-cover" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'">
                     </div>
                     <div class="absolute -bottom-6 -right-6 z-20 bg-gesgRed-500 text-white p-6 rounded-xl shadow-xl max-w-xs hidden sm:block">
-                        <div class="font-cinzel text-3xl font-bold">1995</div>
+                        <div class="text-3xl font-bold">1995</div>
                         <div class="text-xs font-medium mt-1 leading-relaxed">
                             Established as Integrated Executive Selection Corp (IXL Corp), rebranded in 2004 as GESG.
                         </div>
@@ -335,7 +338,7 @@
                         <i class="fa-solid fa-handshake"></i> Executive & Managerial Hiring
                     </div>
 
-                    <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-charcoal-900 leading-tight">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-charcoal-900 leading-tight">
                         Redefining Executive Search Through Trust & Strategic Insight
                     </h2>
 
@@ -344,7 +347,7 @@
                     </p>
 
                     <div class="p-6 rounded-xl bg-slate-50 border-l-4 border-gesgRed-500 space-y-3 shadow-sm">
-                        <h3 class="font-cinzel text-lg font-bold text-charcoal-900">Why Choose GESG?</h3>
+                        <h3 class="text-lg font-bold text-charcoal-900">Why Choose GESG?</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
                             The executive search firm was established by professionals in their respective fields of expertise. It is one of the preferred headhunters in FMCG, Pharmaceutical, Power & Utilities, Retail, Real Estate, Fintech, and IT industries. We are also a valued partner of major conglomerates and selected banks.
                         </p>
@@ -377,7 +380,7 @@
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-gesgRed-50 text-gesgRed-600 text-xs font-bold uppercase tracking-wider">
                     Executive Direction
                 </div>
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-charcoal-900">
+                <h2 class="text-3xl sm:text-4xl font-bold text-charcoal-900">
                     Our Leaders
                 </h2>
                 <p class="text-slate-600 text-base">
@@ -394,7 +397,7 @@
                                 <img src="https://gesg.ph/wp-content/uploads/2023/06/RC-300x300.png" alt="Ray Silvestre Canilao" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80';">
                             </div>
                             <div>
-                                <h3 class="font-cinzel text-xl font-bold text-charcoal-900">Ray Silvestre Canilao</h3>
+                                <h3 class="text-xl font-bold text-charcoal-900">Ray Silvestre Canilao</h3>
                                 <div class="text-gesgRed-500 font-bold text-xs uppercase tracking-wide">President & CEO</div>
                                 <div class="text-xs text-slate-500 font-medium mt-1"><i class="fa-solid fa-briefcase text-gesgRed-500 mr-1"></i> 20+ Yrs Search | 30+ Yrs Marketing</div>
                             </div>
@@ -426,7 +429,7 @@
                                 <img src="https://gesg.ph/wp-content/uploads/2023/06/FCS-300x300.png" alt="Francisco C. Sebastian" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80';">
                             </div>
                             <div>
-                                <h3 class="font-cinzel text-xl font-bold text-charcoal-900">Francisco C. Sebastian</h3>
+                                <h3 class="text-xl font-bold text-charcoal-900">Francisco C. Sebastian</h3>
                                 <div class="text-gesgRed-500 font-bold text-xs uppercase tracking-wide">Chairman</div>
                                 <div class="text-xs text-slate-500 font-medium mt-1"><i class="fa-solid fa-building-columns text-gesgRed-500 mr-1"></i> Chairman, GT Capital | Vice Chairman, Metrobank</div>
                             </div>
@@ -460,7 +463,7 @@
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gesgRed-500 text-white text-xs font-bold uppercase tracking-wider shadow">
                     <i class="fa-solid fa-bullseye"></i> Over 25 Years of Preferred Headhunting
                 </div>
-                <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">
+                <h2 class="text-3xl sm:text-5xl font-bold text-white">
                     Our Expertise & Search Capability
                 </h2>
                 <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">
@@ -482,7 +485,7 @@
                 <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-slate-700 pb-6">
                     <div>
                         <div class="text-xs font-bold text-gesgRed-500 uppercase tracking-widest mb-1">Methodology & Execution</div>
-                        <h3 class="font-cinzel text-2xl font-bold text-white">Our Search Process</h3>
+                        <h3 class="text-2xl font-bold text-white">Our Search Process</h3>
                     </div>
                     <div class="flex flex-wrap gap-4 text-xs">
                         <div class="px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 flex items-center gap-3">
@@ -512,7 +515,7 @@
                     <div class="w-14 h-14 rounded-xl bg-gesgRed-500/10 border border-gesgRed-500/30 flex items-center justify-center text-gesgRed-500 text-2xl mb-6">
                         <i class="fa-solid fa-user-tie"></i>
                     </div>
-                    <h3 class="font-cinzel text-xl font-bold text-white mb-3">C-Suite & Board Search</h3>
+                    <h3 class="text-xl font-bold text-white mb-3">C-Suite & Board Search</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
                         Matching qualified CEOs, CFOs, HR Directors, and Board Members capable of driving transformational organizational growth.
                     </p>
@@ -521,7 +524,7 @@
                     <div class="w-14 h-14 rounded-xl bg-gesgRed-500/10 border border-gesgRed-500/30 flex items-center justify-center text-gesgRed-500 text-2xl mb-6">
                         <i class="fa-solid fa-sitemap"></i>
                     </div>
-                    <h3 class="font-cinzel text-xl font-bold text-white mb-3">Organization Transformation</h3>
+                    <h3 class="text-xl font-bold text-white mb-3">Organization Transformation</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
                         Aligning talent acquisition with your long-term organization design, ensuring organizational fit and leadership alignment.
                     </p>
@@ -530,7 +533,7 @@
                     <div class="w-14 h-14 rounded-xl bg-gesgRed-500/10 border border-gesgRed-500/30 flex items-center justify-center text-gesgRed-500 text-2xl mb-6">
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
-                    <h3 class="font-cinzel text-xl font-bold text-white mb-3">Specialized Industry Sourcing</h3>
+                    <h3 class="text-xl font-bold text-white mb-3">Specialized Industry Sourcing</h3>
                     <p class="text-slate-400 text-xs leading-relaxed">
                         Tailored executive searches across FMCG, Pharma, Power & Utilities, Retail, Real Estate, Fintech, IT, and enterprise banking.
                     </p>
@@ -539,14 +542,14 @@
         </div>
     </section>
 
-    <!-- Our Clients Showcase Section - LOGOS NOW BIGGER -->
+    <!-- Our Clients Showcase Section -->
     <section id="clients" class="py-20 bg-slate-100 border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
             <div class="text-center space-y-3 max-w-3xl mx-auto">
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gesgRed-50 border border-gesgRed-200 text-gesgRed-600 text-xs font-bold uppercase tracking-widest">
                     <i class="fa-solid fa-building"></i> Industry Leaders & Conglomerates
                 </div>
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-charcoal-900">
+                <h2 class="text-3xl sm:text-4xl font-bold text-charcoal-900">
                     Our Clients
                 </h2>
                 <p class="text-slate-600 text-sm">
@@ -554,9 +557,8 @@
                 </p>
             </div>
 
-            <!-- Client Logos Grid - Bigger wrappers and images -->
+            <!-- Client Logos Grid -->
             <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6 items-center">
-                <!-- Each wrapper now has class "client-logo-wrapper" with bigger height and padding -->
                 <div class="client-logo-wrapper">
                     <img src="https://gesg.ph/wp-content/uploads/2023/06/Meralco.png" alt="Meralco Client Logo">
                 </div>
@@ -616,7 +618,7 @@
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gesgRed-50 border border-gesgRed-200 text-gesgRed-600 text-xs font-bold uppercase tracking-widest">
                     <i class="fa-solid fa-comments"></i> Partner Endorsements
                 </div>
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-charcoal-900">
+                <h2 class="text-3xl sm:text-4xl font-bold text-charcoal-900">
                     What People Are Saying
                 </h2>
                 <p class="text-slate-600 text-sm sm:text-base">
@@ -631,7 +633,7 @@
                         <div class="flex items-center gap-4">
                             <img src="https://gesg.ph/wp-content/uploads/2023/06/Felix.png" alt="Felix Dan S. Lopez" class="w-20 h-20 rounded-full object-cover border-2 border-gesgRed-500 shadow" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80';">
                             <div>
-                                <h3 class="font-cinzel text-lg font-bold text-charcoal-900">Felix Dan S. Lopez</h3>
+                                <h3 class="text-lg font-bold text-charcoal-900">Felix Dan S. Lopez</h3>
                                 <p class="text-xs text-gesgRed-600 font-bold">Former HR Director of Cebu Pacific | HR Director JG Summit Holdings Inc.</p>
                             </div>
                         </div>
@@ -653,7 +655,7 @@
                         <div class="flex items-center gap-4">
                             <img src="https://gesg.ph/wp-content/uploads/2023/06/Rhea.png" alt="Rhea Mata Villanueva" class="w-20 h-20 rounded-full object-cover border-2 border-gesgRed-500 shadow" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80';">
                             <div>
-                                <h3 class="font-cinzel text-lg font-bold text-charcoal-900">Rhea Mata Villanueva</h3>
+                                <h3 class="text-lg font-bold text-charcoal-900">Rhea Mata Villanueva</h3>
                                 <p class="text-xs text-gesgRed-600 font-bold">HR Director at Collins Aerospace</p>
                             </div>
                         </div>
@@ -684,7 +686,7 @@
                     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gesgRed-500 text-white text-xs font-bold uppercase tracking-widest shadow">
                         <i class="fa-solid fa-newspaper"></i> Media Recognition
                     </div>
-                    <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white tracking-wide">
+                    <h2 class="text-3xl sm:text-5xl font-bold text-white tracking-wide">
                         Press & Media Coverage
                     </h2>
                     <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
@@ -706,7 +708,7 @@
                         </div>
                         <div class="p-6 space-y-3">
                             <div class="text-[11px] font-bold text-gesgRed-600 uppercase tracking-wider">Business Inquirer</div>
-                            <h3 class="font-cinzel text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
+                            <h3 class="text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
                                 GESG: A Corporate matchmaker
                             </h3>
                             <p class="text-xs text-slate-600 leading-relaxed">
@@ -731,7 +733,7 @@
                         </div>
                         <div class="p-6 space-y-3">
                             <div class="text-[11px] font-bold text-gesgRed-600 uppercase tracking-wider">The Chronicle PH</div>
-                            <h3 class="font-cinzel text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
+                            <h3 class="text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
                                 Twenty years of GESG through the eyes of its placed executives
                             </h3>
                             <p class="text-xs text-slate-600 leading-relaxed">
@@ -756,7 +758,7 @@
                         </div>
                         <div class="p-6 space-y-3">
                             <div class="text-[11px] font-bold text-gesgRed-600 uppercase tracking-wider">Chronicles PH</div>
-                            <h3 class="font-cinzel text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
+                            <h3 class="text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
                                 The GESG formula: two decades of building leaders and earning trust
                             </h3>
                             <p class="text-xs text-slate-600 leading-relaxed">
@@ -781,7 +783,7 @@
                         </div>
                         <div class="p-6 space-y-3">
                             <div class="text-[11px] font-bold text-gesgRed-600 uppercase tracking-wider">Philippines Graphic</div>
-                            <h3 class="font-cinzel text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
+                            <h3 class="text-xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
                                 The leaders who built the legacy: GESG at 20 through the eyes of its placements
                             </h3>
                             <p class="text-xs text-slate-600 leading-relaxed">
@@ -807,7 +809,7 @@
                         <div class="md:col-span-7 p-6 sm:p-8 space-y-3 flex flex-col justify-between h-full">
                             <div class="space-y-3">
                                 <div class="text-[11px] font-bold text-gesgRed-600 uppercase tracking-wider">The Voice Newsweekly</div>
-                                <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
+                                <h3 class="text-xl sm:text-2xl font-bold text-charcoal-900 group-hover:text-gesgRed-500 transition-colors leading-snug">
                                     The GESG Formula: Two decades of Leadership built on trust and purpose
                                 </h3>
                                 <p class="text-xs text-slate-600 leading-relaxed">
@@ -831,9 +833,9 @@
     <!-- CTA Banner Section -->
     <section class="py-16 bg-gradient-to-r from-gesgRed-700 via-gesgRed-600 to-gesgRed-800 text-white text-center shadow-xl">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-            <h2 class="font-cinzel text-3xl sm:text-4xl lg:text-5xl font-bold tracking-wide">
-                Find The <span class="underline decoration-white/40">Right Fit.</span>
-            </h2>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-wide text-white">
+                Find The <span class="underline decoration-white/40 italic">Right Fit.</span>
+            </h1>
             <p class="text-white/90 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
                 Your long term business partner in building your organization design and transformation.
             </p>
@@ -850,7 +852,7 @@
 
         <!-- Official Top Cover Banner -->
         <div class="w-full bg-gesgRed-500 py-12 px-4 text-center text-white shadow-md">
-            <h1 class="font-cinzel text-3xl sm:text-4xl lg:text-5xl font-bold tracking-wide">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
                 Send Us A Message
             </h1>
             <p class="text-white/80 text-sm mt-2 font-medium">
@@ -873,7 +875,7 @@
                 <!-- Right: Contact Information Box -->
                 <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-8 border border-slate-200 shadow-lg space-y-6">
                     <div class="border-b border-slate-200 pb-4">
-                        <h3 class="font-cinzel text-2xl font-bold text-charcoal-900">Headquarters</h3>
+                        <h3 class="text-2xl font-bold text-charcoal-900">Headquarters</h3>
                         <p class="text-xs text-gesgRed-500 font-bold uppercase tracking-wider mt-1">Makati Business District</p>
                     </div>
 
